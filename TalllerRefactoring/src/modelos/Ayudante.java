@@ -29,8 +29,8 @@ public class Ayudante {
     //Los paralelos se añaden/eliminan directamente del Arraylist de paralelos
 
 
-    //Método para imprimir los paralelos que tiene asignados como ayudante
-    public void MostrarParalelos(){
+    
+    public void MostrarInfoParalelos(){
         for(Paralelo par:paralelos){
             //Muestra la info general de cada paralelo
         }
