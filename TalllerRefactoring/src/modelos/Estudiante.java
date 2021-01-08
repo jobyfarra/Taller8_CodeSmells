@@ -76,5 +76,20 @@ public class Estudiante {
     public void setTelefono(String telefono) {
         this.telefono = telefono;
     }
+    
+    public double CalcularNotaFinal(Paralelo p, double nexamen,double ndeberes, double nlecciones, double ntalleres){
+        double notaFinal=0;
+        for(Paralelo par:paralelos){
+            if(p.equals(par)){
+                
+                notaFinal = notaFinal(nexamen,ndeberes,nlecciones,ntalleres);
+                
+            }
+        }
+        return notaFinal;
+    }
+    private double notaFinal(double nexamen, double ndeberes, double nlecciones, double ntalleres) {
+        return ((nexamen + ndeberes + nlecciones) * 0.80) + ((ntalleres) * 0.20);
+    }
 
 }
