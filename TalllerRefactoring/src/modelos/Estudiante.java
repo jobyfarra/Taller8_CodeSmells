@@ -5,14 +5,14 @@ import java.util.ArrayList;
 public class Estudiante {
 
     //Informacion del estudiante
-    public String matricula;
-    public String nombre;
-    public String apellido;
-    public String facultad;
-    public int edad;
-    public String direccion;
-    public String telefono;
-    public ArrayList<Paralelo> paralelos;
+    private String matricula;
+    private String nombre;
+    private String apellido;
+    private String facultad;
+    private int edad;
+    private String direccion;
+    private String telefono;
+    private ArrayList<Paralelo> paralelos;
 
     //Getter y setter de Matricula
     public String getMatricula() {

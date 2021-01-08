@@ -3,14 +3,14 @@ package modelos;
 import java.util.ArrayList;
 
 public class Profesor {
-    public String codigo;
-    public String nombre;
-    public String apellido;
-    public int edad;
-    public String direccion;
-    public String telefono;
-    public InformacionAdicionalProfesor info;
-    public ArrayList<Paralelo> paralelos;
+    private String codigo;
+    private String nombre;
+    private String apellido;
+    private int edad;
+    private String direccion;
+    private String telefono;
+    private InformacionAdicionalProfesor info;
+    private ArrayList<Paralelo> paralelos;
 
     public Profesor(String codigo, String nombre, String apellido, String facultad, int edad, String direccion, String telefono) {
         this.codigo = codigo;
