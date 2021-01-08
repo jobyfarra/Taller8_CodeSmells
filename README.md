@@ -1,2 +1,2 @@
-# Tarea4_CodeSmells
+# Taller8_CodeSmells
 Code Smell y Refactoring
